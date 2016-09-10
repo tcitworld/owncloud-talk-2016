@@ -1,0 +1,165 @@
+\documentclass[11pt]{beamer}
+\usetheme{default}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\author{Thomas CITHAREL (tcit) \textless tcit@tcit.fr\textgreater}
+\title{Developping ownCloud for our own needs}
+
+\subtitle{Feedback on improving the calendar features for a Framasoft-hosted webservice}
+
+%logo{}
+
+%institute{}
+
+\date{September 11, 2016}
+
+%subject{}
+
+\setbeamercovered{transparent}
+
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	\maketitle
+	
+	\begin{frame}
+		\frametitle{About myself}
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushleft}
+			\begin{center}
+				\includegraphics[width=0.3\paperwidth]{../Images/Me.png}
+			\end{center}
+			\label{publication-calendrier}
+		\end{flushleft}
+		\end{minipage}
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushright}
+				\begin{itemize}
+					\item junior developer
+					\item free software
+					\item wallabag
+				\end{itemize}
+			\end{flushright}
+		\end{minipage}
+	\end{frame}
+	\begin{frame}
+		\frametitle{My employer}
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushleft}
+		\begin{itemize}
+			\item non-profit organisation
+			\item 15 years
+			\item free (demos) webservices
+		\end{itemize}
+	\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+	\begin{flushright}
+		\begin{center}
+			\includegraphics[width=0.3\paperwidth]{../Images/Framasoft.jpg}
+		\end{center}
+	\end{flushright}
+\end{minipage}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Un-google-ize internet}
+		\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{../Images/Degooglisons}
+\caption{}
+\label{fig:Framasoft}
+\end{figure}
+
+	\end{frame}
+	\begin{frame}
+		\frametitle{Google Calendar Alternative ?}
+		\begin{itemize}
+			\item No real free software alternative
+			\item Old apps : technical dept and old UI
+			\item Start from scratch ? Calendar standards are hard.
+			\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{ownCloud Calendar App}
+		Good points :
+		\begin{itemize}
+			\item Most features already here
+			\item SabreDAV library
+			\item ownCloud Framework
+		\end{itemize}
+		Bad points :
+		\begin{itemize}
+			\item Big and unecessary features (files app...)
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Compete with Google Calendar ?}
+		Not an exaustive list, but here's what I \textit{tried} to bring
+		\begin{itemize}
+			\item Publish calendars
+			\item Subscribe to online calendars
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Publish calendars}
+		\only<1>{\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{../Images/PublishModule1}
+		\end{figure}}
+		\only<2>{\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{../Images/PublishModule2}
+		\end{figure}}
+		\only<3>{\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{../Images/PublishModule3}
+		\end{figure}}
+		\only<4>{\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{../Images/PublicPage}
+		\end{figure}}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Subscribe to calendars}
+		\only<1>{\begin{figure}
+				\centering
+				\includegraphics[width=0.8\linewidth]{../Images/SubscribeModule1}
+			\end{figure}}
+		\only<2>{\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{../Images/SubscribeModule2}
+			\end{figure}}
+	\end{frame}
+	\begin{frame}
+		\frametitle{More ?}
+		\begin{itemize}
+			\item Description of an event when hovering ?
+			\item Undo actions ?
+			\item Federated shares ?
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Feedback}
+		\begin{itemize}
+			\only<1->{\item apps \& docs not always up to date (examples !)}
+			\only<2->{\item easy to understand}
+			\only<3->{\item framework public API page \textless3 }
+			\only<4->{\item Great \& helping community}
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Please contribute !}
+		Contribute to ownCloud as an employee
+		\begin{itemize}
+			\item tech skills
+			\item community exchanges
+			\item you get the features you want !
+	\end{itemize}
+	\end{frame}
+\end{document}
